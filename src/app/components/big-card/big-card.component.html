@@ -7,15 +7,16 @@
         height="200px"         
         srcset="">
     </div>
-
     
     <div class="big-card__title">
-        <h1><a href="#">{{ cardTitle }}</a></h1>
+    <!--<h1><a [routerLink]="['contente, Id']">{{ cardTitle }}</a></h1> http://localhost:4200/content/1-->
+        <h1><a href="content/:id">{{ cardTitle }}</a></h1>     
     </div>
     
     <div class="big-card__description">
         <p>
-            <a href="#">
+        <!--<h1><a [routerLink]="['contente, Id']">{{ cardTitle }}</a></h1> http://localhost:4200/content/1-->
+            <a href="content/:id">
                 {{ cardDescription }}                
             </a>
         </p>
