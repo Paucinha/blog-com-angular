@@ -2,7 +2,7 @@
     
     <div class="big-card__image">
         <img
-        src="https://i0.wp.com/cloud.estacaonerd.com/wp-content/uploads/2020/04/03205507/image.gif?fit=768%2C512&ssl=1" 
+        src="{{ photoCover }}" 
         alt=""
         height="200px"         
         srcset="">
@@ -10,13 +10,13 @@
 
     
     <div class="big-card__title">
-        <h1><a href="#">La Casa de Papel</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
     
     <div class="big-card__description">
         <p>
             <a href="#">
-                Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se pirulitá. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+                {{ cardDescription }}                
             </a>
         </p>
     </div>
